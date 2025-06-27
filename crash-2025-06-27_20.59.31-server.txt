@@ -1,0 +1,347 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2025-06-27 20:59:31
+Description: Ticking block entity
+
+java.lang.RuntimeException: Mixin transformation of me.jellysquid.mods.lithium.common.hopper.HopperHelper failed
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at knot//net.minecraft.class_2614.getExtractBlockInventory(class_2614.java:1004)
+	at knot//net.minecraft.class_2614.redirect$ffb000$lithium$getExtractInventory(class_2614.java:616)
+	at knot//net.minecraft.class_2614.method_11241(class_2614.java:219)
+	at knot//net.minecraft.class_2614.method_31691(class_2614.java:107)
+	at knot//net.minecraft.class_2614.method_11243(class_2614.java:123)
+	at knot//net.minecraft.class_2614.mixinextras$bridge$method_11243$121(class_2614.java)
+	at knot//net.minecraft.class_2614.wrapOperation$bjm000$carpet-org-addition$insert(class_2614.java:2994)
+	at knot//net.minecraft.class_2614.method_31692(class_2614.java:107)
+	at knot//net.minecraft.class_2818$class_5563.method_31703(class_2818.java:683)
+	at knot//net.minecraft.class_2818$class_5564.method_31703(class_2818.java:737)
+	at knot//net.minecraft.class_1937.method_18471(class_1937.java:488)
+	at knot//net.minecraft.class_3218.method_18765(class_3218.java:413)
+	at knot//net.minecraft.server.MinecraftServer.mixinextras$bridge$method_18765$335(MinecraftServer.java)
+	at knot//net.minecraft.server.MinecraftServer.wrapOperation$zmi000$carpet-ams-addition$tickWorlds(MinecraftServer.java:4148)
+	at knot//net.minecraft.server.MinecraftServer.mixinextras$bridge$wrapOperation$zmi000$carpet-ams-addition$tickWorlds$336(MinecraftServer.java)
+	at knot//net.minecraft.server.MinecraftServer.wrapOperation$dal000$carpet-tis-addition$yeetUpdateSuppressionCrash_implOnTickWorlds(MinecraftServer.java:8159)
+	at knot//net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1021)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:912)
+	at knot//net.minecraft.class_1132.method_3748(class_1132.java:114)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422)
+	... 26 more
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [carpet-tis-addition.mixins.json:rule.hopperNoItemCost.compat.lithium.HopperHelperMixin from mod carpet-tis-addition] from phase [DEFAULT] in config [carpet-tis-addition.mixins.json] FAILED during APPLY
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)
+	... 29 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @ModifyVariable annotation on hopperNoItemCost could not find any targets matching 'Lme/jellysquid/mods/lithium/common/hopper/HopperHelper;tryMoveSingleItem(Lnet/minecraft/class_1263;Lnet/minecraft/class_1278;Lnet/minecraft/class_1799;ILnet/minecraft/class_2350;)Z' in me/jellysquid/mods/lithium/common/hopper/HopperHelper. Using refmap carpet-tis-addition-refmap.json [INJECT_PREPARE Applicator Phase -> carpet-tis-addition.mixins.json:rule.hopperNoItemCost.compat.lithium.HopperHelperMixin from mod carpet-tis-addition -> Prepare Injections -> localvar$ckp000$carpet-tis-addition$hopperNoItemCost(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799; -> Parse ->  -> Validate Targets]
+	at org.spongepowered.asm.mixin.injection.selectors.TargetSelectors.validate(TargetSelectors.java:346)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:369)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:340)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:331)
+	at org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo.<init>(ModifyVariableInjectionInfo.java:47)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:196)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:664)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1399)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+	... 29 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at knot//net.minecraft.class_2614.getExtractBlockInventory(class_2614.java:1004)
+	at knot//net.minecraft.class_2614.redirect$ffb000$lithium$getExtractInventory(class_2614.java:616)
+	at knot//net.minecraft.class_2614.method_11241(class_2614.java:219)
+	at knot//net.minecraft.class_2614.method_31691(class_2614.java:107)
+	at knot//net.minecraft.class_2614.method_11243(class_2614.java:123)
+	at knot//net.minecraft.class_2614.mixinextras$bridge$method_11243$121(class_2614.java)
+	at knot//net.minecraft.class_2614.wrapOperation$bjm000$carpet-org-addition$insert(class_2614.java:2994)
+	at knot//net.minecraft.class_2614.method_31692(class_2614.java:107)
+	at knot//net.minecraft.class_2818$class_5563.method_31703(class_2818.java:683)
+	at knot//net.minecraft.class_2818$class_5564.method_31703(class_2818.java:737)
+	at knot//net.minecraft.class_1937.method_18471(class_1937.java:488)
+	at knot//net.minecraft.class_3218.method_18765(class_3218.java:413)
+	at knot//net.minecraft.server.MinecraftServer.mixinextras$bridge$method_18765$335(MinecraftServer.java)
+	at knot//net.minecraft.server.MinecraftServer.wrapOperation$zmi000$carpet-ams-addition$tickWorlds(MinecraftServer.java:4148)
+	at knot//net.minecraft.server.MinecraftServer.mixinextras$bridge$wrapOperation$zmi000$carpet-ams-addition$tickWorlds$336(MinecraftServer.java)
+
+-- Block entity being ticked --
+Details:
+	Name: minecraft:hopper // net.minecraft.class_2614
+	Block: Block{minecraft:hopper}[enabled=true,facing=west]
+	Block location: World: (3,143,-317), Section: (at 3,15,3 in 0,8,-20; chunk contains blocks 0,-64,-320 to 15,319,-305), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Block: Block{minecraft:hopper}[enabled=true,facing=west]
+	Block location: World: (3,143,-317), Section: (at 3,15,3 in 0,8,-20; chunk contains blocks 0,-64,-320 to 15,319,-305), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+Stacktrace:
+	at knot//net.minecraft.class_2818$class_5563.method_31703(class_2818.java:683)
+	at knot//net.minecraft.class_2818$class_5564.method_31703(class_2818.java:737)
+	at knot//net.minecraft.class_1937.method_18471(class_1937.java:488)
+	at knot//net.minecraft.class_3218.method_18765(class_3218.java:413)
+	at knot//net.minecraft.server.MinecraftServer.mixinextras$bridge$method_18765$335(MinecraftServer.java)
+	at knot//net.minecraft.server.MinecraftServer.wrapOperation$zmi000$carpet-ams-addition$tickWorlds(MinecraftServer.java:4148)
+	at knot//net.minecraft.server.MinecraftServer.mixinextras$bridge$wrapOperation$zmi000$carpet-ams-addition$tickWorlds$336(MinecraftServer.java)
+	at knot//net.minecraft.server.MinecraftServer.wrapOperation$dal000$carpet-tis-addition$yeetUpdateSuppressionCrash_implOnTickWorlds(MinecraftServer.java:8159)
+	at knot//net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1021)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:912)
+	at knot//net.minecraft.class_1132.method_3748(class_1132.java:114)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_3222['Linvin_'/37, l='ServerLevel[新的世界]', x=14.78, y=142.04, z=-317.22]]
+	Chunk stats: 4547
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-16,106,16), Section: (at 0,10,0 in -1,6,1; chunk contains blocks -16,-64,16 to -1,319,31), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Level time: 2563 game time, 0 day time
+	Level name: 新的世界
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Commands: true
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Known server brands: fabric
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 425
+Stacktrace:
+	at knot//net.minecraft.class_3218.method_8538(class_3218.java:1693)
+	at knot//net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1024)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:912)
+	at knot//net.minecraft.class_1132.method_3748(class_1132.java:114)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.7, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1136220936 bytes (1083 MiB) / 3825205248 bytes (3648 MiB) up to 6979321856 bytes (6656 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 5500                               
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce GTX 1650 SUPER
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 4096.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 27.21.14.5751
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 20403.91
+	Virtual memory used (MiB): 17705.11
+	Swap memory total (MiB): 4128.02
+	Swap memory used (MiB): 51.14
+	Space in storage for jna.tmpdir (MiB): available: 362026.97, total: 376940.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 362026.97, total: 376940.00
+	Space in storage for io.netty.native.workdir (MiB): available: 362026.97, total: 376940.00
+	Space in storage for java.io.tmpdir (MiB): available: 30337.15, total: 99126.97
+	Space in storage for workdir (MiB): available: 362026.97, total: 376940.00
+	JVM Flags: 19 total; -Xmx6647m -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseG1GC -XX:G1MixedGCCountTarget=5 -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:TieredCompileTaskTimeout=10000 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NmethodSweepActivity=1 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Fabric Mods: 
+		appleskin: AppleSkin 3.0.6+mc1.21
+		architectury: Architectury 13.0.8
+		carpet: Carpet Mod 1.4.147+v240613
+		carpet-ams-addition: Carpet AMS Addition 2.57.4
+			annotationtoolbox: AnnotationToolBox 0.3
+			fabric-api-base: Fabric API Base 0.4.42+6573ed8cd1
+		carpet-org-addition: Carpet Org Addition 1.37.3
+		carpet-tis-addition: Carpet TIS Addition 1.61.0
+		chat_heads: Chat Heads 0.13.18
+		cloth-config: Cloth Config v15 15.0.140
+			cloth-basic-math: cloth-basic-math 0.6.1
+		continuity: Continuity 3.0.0+1.21
+		creativecore: CreativeCore 2.12.9
+			net_neoforged_bus: bus 7.2.0
+		dynamic_fps: Dynamic FPS 3.9.5
+			net_lostluma_battery: battery 1.3.0
+		entityculling: EntityCulling 1.8.0
+			transition: TRansition 1.0.2
+			trender: TRender 1.0.4
+		fabric-api: Fabric API 0.116.3+1.21.1
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.71+b559734419
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.31+d527f9fd19
+			fabric-block-api-v1: Fabric Block API (v1) 1.1.0+0bc3503219
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.11+ebb2264e19
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.52+0af3f5a719
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.15+6573ed8c19
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.49+f71b366f19
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.28+6ced4dd919
+			fabric-commands-v0: Fabric Commands (v0) 0.2.66+df3654b319
+			fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.19+b559734419
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.5+7f945d5b19
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.11.1+a406e79519
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.29+0af3f5a719
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.4.5+6116a37819
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 20.2.31+16c4ae2519
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.0+6fc22b9919
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.8.0+2b27e0a419
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.13+ba9dae0619
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.53+6ced4dd919
+			fabric-item-api-v1: Fabric Item API (v1) 11.1.1+d5debaed19
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.7+def88e3a19
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.47+0af3f5a719
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.45+df3654b319
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.6.0+0865547519
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.15+3f89f5a519
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.3+3f89f5a519
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.14+8aaf3aca19
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 2.0.0+fe474d6b19
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.3.0+c7469b2119
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.2.1+40875a9319
+			fabric-particles-v1: Fabric Particles (v1) 4.0.2+6573ed8c19
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.14+248df81c19
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.3.1+e3eddc2119
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.4.0+c705a49c19
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.7.0+c705a49c19
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.68+df3654b319
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.49+73761d2e19
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.6+1daea21519
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.71+df3654b319
+			fabric-rendering-v1: Fabric Rendering (v1) 5.0.5+df16efd019
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.3.0+8dc279b119
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.3.1+5b5275af19
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.25+8b68f1c719
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.90+b559734419
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.23+6573ed8c19
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.3+c24bd99419
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.2.0+45b9699719
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.4+kotlin.2.2.0
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.2.0
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.2.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.2.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.2.0
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.28.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.10.2
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.10.2
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.6.2
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.8.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.8.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.8.1
+		fabricloader: Fabric Loader 0.16.14
+			mixinextras: MixinExtras 0.4.1
+		ferritecore: FerriteCore 7.0.0
+		flashback: Flashback 0.34.0
+			com_moulberry_mixinconstraints: mixinconstraints 1.0.8
+		g4mespeed: G4mespeed 1.4.8-mc1.21.1
+			g4mespeed-ui: G4mespeed UI 0.9.10-mc1.21.1
+		ingameime: XPlus ContingameIME 1.2.1-xplus-1.21.3
+		iris: Iris 1.8.8+mc1.21.1
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		isometric-renders: Isometric Renders 0.4.7+1.21
+			worldmesher: Worldmesher 0.4.6+1.21
+		itemscroller: Item Scroller 0.24.59
+		java: OpenJDK 64-Bit Server VM 21
+		jei: Just Enough Items 19.21.2.313
+		krypton: Krypton 0.2.8
+			com_velocitypowered_velocity-native: velocity-native 3.3.0-SNAPSHOT
+		litematica: Litematica 0.19.59
+		lithium: Lithium 0.13.1
+		malilib: MaLiLib 0.21.9
+		minecraft: Minecraft 1.21
+		minihud: MiniHUD 0.32.59
+		modernfix: ModernFix 5.19.1+mc1.21
+		modmenu: Mod Menu 11.0.3
+		owo: oωo 0.12.15.4+1.21
+			blue_endless_jankson: jankson 1.2.2
+			io_wispforest_endec: endec 0.1.5.1
+			io_wispforest_endec_gson: gson 0.1.3.1
+			io_wispforest_endec_jankson: jankson 0.1.3.1
+			io_wispforest_endec_netty: netty 0.1.2
+		placeholder-api: Placeholder API 2.4.2+1.21
+		reden: Reden 0.10.1
+		reeses-sodium-options: Reese's Sodium Options 1.8.3+mc1.21.4
+		sodium: Sodium 0.6.13+mc1.21.1
+		sodium-extra: Sodium Extra 0.6.0+mc1.21.1
+		tweakermore: TweakerMore 3.26.1
+			conditional-mixin: conditional mixin 0.6.4
+		tweakeroo: Tweakeroo 0.21.59
+		viafabricplus: ViaFabricPlus 3.4.9
+			com_github_oryxel_cubeconverter: CubeConverter 5ae1e90e4f
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			com_vdurmont_semver4j: semver4j 3.1.0
+			com_viaversion_viabackwards-common: viabackwards-common 5.1.2-SNAPSHOT
+			com_viaversion_viaversion-common: viaversion-common 5.1.2-SNAPSHOT
+			de_florianmichael_classic4j: Classic4J 2.1.1-SNAPSHOT
+			io_jsonwebtoken_jjwt-api: jjwt-api 0.12.6
+			io_jsonwebtoken_jjwt-gson: jjwt-gson 0.12.6
+			io_jsonwebtoken_jjwt-impl: jjwt-impl 0.12.6
+			io_netty_netty-codec-http: netty-codec-http 4.1.114
+			net_jodah_expiringmap: expiringmap 0.5.10
+			net_lenni0451_commons_httpclient: httpclient 1.6.0
+			net_lenni0451_mcping: MCPing 1.4.2
+			net_lenni0451_mcstructs-bedrock_forms: forms 1.2.1
+			net_lenni0451_mcstructs-bedrock_text: text 1.2.1
+			net_lenni0451_reflect: Reflect 1.3.4
+			net_raphimc_minecraftauth: MinecraftAuth 4.1.1
+			net_raphimc_viaaprilfools-common: viaaprilfools-common 3.0.5-SNAPSHOT
+			net_raphimc_viabedrock: ViaBedrock 0.0.13-SNAPSHOT
+			net_raphimc_vialegacy: ViaLegacy 3.0.6-SNAPSHOT
+			net_raphimc_vialoader: ViaLoader 3.0.5-SNAPSHOT
+			org_cloudburstmc_netty_netty-transport-raknet: netty-transport-raknet 1.0.0.CR3-SNAPSHOT
+			org_lz4_lz4-pure-java: lz4-pure-java 1.8.0
+		worldedit: WorldEdit 7.3.8+6939-7d32b45
+		xaerominimap: Xaero's Minimap 25.2.6
+		xaeroworldmap: Xaero's World Map 1.39.9
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.7.1+1.21.1-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+	Loaded Shaderpack: (off)
+	Server Running: true
+	Player Count: 1 / 8; [class_3222['Linvin_'/37, l='ServerLevel[新的世界]', x=14.78, y=142.04, z=-317.22]]
+	Active Data Packs: vanilla, fabric, fabric-convention-tags-v2, malilib
+	Available Data Packs: bundle, fabric, fabric-convention-tags-v2, malilib, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -8641578445109899400
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Launched Version: 1.21-Fabric

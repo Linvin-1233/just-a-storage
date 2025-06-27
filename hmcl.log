@@ -1,0 +1,261 @@
+[20:38:59] [@.util.SelfDependencyPatcher.patch/INFO] Missing JavaFX dependencies, attempting to patch in missing classes
+[20:38:59] [@.util.SelfDependencyPatcher.loadFromCache/INFO]  - Loading dependencies...
+[20:38:59] [@.util.SelfDependencyPatcher.patch/INFO]  - Done!
+[20:38:59] [@.Launcher.main/INFO] *** HMCL 3.6.12.282 ***
+[20:38:59] [@.Launcher.main/INFO] Operating System: Windows 11 10.0.26100
+[20:38:59] [@.Launcher.main/INFO] Processor Identifier: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+[20:38:59] [@.Launcher.main/INFO] System Architecture: x86-64
+[20:38:59] [@.Launcher.main/INFO] Native Encoding: GB18030
+[20:38:59] [@.Launcher.main/INFO] JNU Encoding: GBK
+[20:38:59] [@.Launcher.main/INFO] Code Page: 936
+[20:38:59] [@.Launcher.main/INFO] Java Architecture: x86-64
+[20:38:59] [@.Launcher.main/INFO] Java Version: 21.0.7, Eclipse Adoptium
+[20:38:59] [@.Launcher.main/INFO] Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+[20:38:59] [@.Launcher.main/INFO] Java Home: C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot
+[20:38:59] [@.Launcher.main/INFO] Current Directory: C:\Users\weizh\Downloads
+[20:38:59] [@.Launcher.main/INFO] HMCL Global Directory: C:\Users\weizh\AppData\Roaming\.hmcl
+[20:38:59] [@.Launcher.main/INFO] HMCL Current Directory: C:\Users\weizh\Downloads\.hmcl
+[20:38:59] [@.Launcher.main/INFO] HMCL Jar Path: C:\Users\weizh\Downloads\HMCL-3.6.12.282.exe
+[20:38:59] [@.Launcher.main/INFO] HMCL Log File: C:\Users\weizh\Downloads\.hmcl\logs\2025-06-27T20-38-59.log
+[20:39:00] [@.Launcher.main/INFO] JVM Max Memory: 1024 MiB
+[20:39:00] [@.Launcher.main/INFO] Metaspace: 6.11 MiB
+[20:39:00] [@.Launcher.main/INFO] Native Backend: JNA
+[20:39:00] [@.Launcher.start/INFO] JavaFX Version: 17.0.15+1
+[20:39:00] [@.Launcher.start/INFO] Prism pipeline: com.sun.prism.d3d.D3DPipeline
+[20:39:00] [@.setting.ConfigHolder.init/INFO] Config location: C:\Users\weizh\Downloads\.hmcl\hmcl.json
+[20:39:01] [@.util.platform.SystemInfo.initialize/INFO] System Info:
+ - CPU: AMD Ryzen 5 5500 (6 Cores / 12 Threads)
+ - GPU: NVIDIA GeForce GTX 1650 SUPER [Discrete]
+ - Memory: 6.91 GiB / 15.89 GiB (43%)
+[20:39:01] [@.auth.authlibinjector.AuthlibInjectorDownloader.checkUpdate/INFO] Checking update of authlib-injector
+[20:39:01] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:90)
+[20:39:01] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:90)
+[20:39:01] [@.event.EventBus.fireEvent/INFO] RefreshingVersionsEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] RefreshingVersionsEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft]] gets fired
+[20:39:01] [@.ui.Controllers.initialize/INFO] Start initializing application
+[20:39:01] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft], version=Version [id=1.14]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft], version=Version [id=1.14]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft], version=Version [id=1.21-Fabric]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft], version=Version [id=1.21-Fabric]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft], version=Version [id=1.15]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft], version=Version [id=1.15]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=D:\.minecraft], version=Version [id=1.15.2]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=[1.14, 1.15, 1.15.2, 1.21-Fabric], baseDirectory=D:\.minecraft], version=Version [id=1.15.2]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] RefreshedVersionsEvent [source=HMCLGameRepository [versions=[1.14, 1.15, 1.15.2, 1.21-Fabric], baseDirectory=D:\.minecraft]] gets fired
+[20:39:01] [@.event.EventBus.fireEvent/INFO] RefreshedVersionsEvent [source=HMCLGameRepository [versions=[1.14, 1.15, 1.15.2, 1.21-Fabric], baseDirectory=D:\.minecraft]] gets fired
+[20:39:01] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:90)
+[20:39:01] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:90)
+[20:39:01] [@.setting.FontManager.<clinit>/INFO] Font: System Regular
+[20:39:01] [@.java.JavaManager.tryAddJavaHome/WARNING] Failed to lookup Java executable at C:\Program Files\Java\jdk-17\bin\java.exe
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-17\bin\java.exe": CreateProcess error=1392, 文件或目录损坏且无法读取。
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.jackhuang.hmcl.util.platform.SystemUtils.run(SystemUtils.java:92)
+	at org.jackhuang.hmcl.util.platform.SystemUtils.run(SystemUtils.java:80)
+	at org.jackhuang.hmcl.java.JavaInfoUtils.fromExecutable(JavaInfoUtils.java:76)
+	at org.jackhuang.hmcl.java.JavaManager.tryAddJavaHome(JavaManager.java:484)
+	at org.jackhuang.hmcl.java.JavaManager.queryJavaInRegistryKey(JavaManager.java:657)
+	at org.jackhuang.hmcl.java.JavaManager.searchPotentialJavaExecutables(JavaManager.java:360)
+	at org.jackhuang.hmcl.java.JavaManager.initialize(JavaManager.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.io.IOException: Unknown operating system: null
+		at org.jackhuang.hmcl.java.JavaInfo.fromReleaseFile(JavaInfo.java:77)
+		at org.jackhuang.hmcl.java.JavaInfo.fromReleaseFile(JavaInfo.java:90)
+		at org.jackhuang.hmcl.java.JavaManager.tryAddJavaHome(JavaManager.java:481)
+		... 4 more
+Caused by: java.io.IOException: CreateProcess error=1392, 文件或目录损坏且无法读取。
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:506)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 9 more
+[20:39:01] [@.java.JavaManager.tryAddJavaHome/WARNING] Failed to lookup Java executable at C:\Program Files\Java\jdk-17\bin\java.exe
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-17\bin\java.exe": CreateProcess error=1392, 文件或目录损坏且无法读取。
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.jackhuang.hmcl.util.platform.SystemUtils.run(SystemUtils.java:92)
+	at org.jackhuang.hmcl.util.platform.SystemUtils.run(SystemUtils.java:80)
+	at org.jackhuang.hmcl.java.JavaInfoUtils.fromExecutable(JavaInfoUtils.java:76)
+	at org.jackhuang.hmcl.java.JavaManager.tryAddJavaHome(JavaManager.java:484)
+	at org.jackhuang.hmcl.java.JavaManager.searchAllJavaInDirectory(JavaManager.java:610)
+	at org.jackhuang.hmcl.java.JavaManager.searchJavaInProgramFiles(JavaManager.java:627)
+	at org.jackhuang.hmcl.java.JavaManager.searchPotentialJavaExecutables(JavaManager.java:362)
+	at org.jackhuang.hmcl.java.JavaManager.initialize(JavaManager.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.io.IOException: Unknown operating system: null
+		at org.jackhuang.hmcl.java.JavaInfo.fromReleaseFile(JavaInfo.java:77)
+		at org.jackhuang.hmcl.java.JavaInfo.fromReleaseFile(JavaInfo.java:90)
+		at org.jackhuang.hmcl.java.JavaManager.tryAddJavaHome(JavaManager.java:481)
+		... 5 more
+Caused by: java.io.IOException: CreateProcess error=1392, 文件或目录损坏且无法读取。
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:506)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 10 more
+[20:39:01] [@.java.JavaManager.searchPotentialJavaExecutables/TRACE] Finished Java lookup, found 1
+ - JDK 21.0.7 (x86-64, Eclipse Adoptium): C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin\java.exe
+[20:39:02] [@.auth.microsoft.MicrosoftService.lambda$new$0/INFO] Fetching properties of 551b6f86-5827-4318-9ad5-6985688e0179
+[20:39:02] [@.upgrade.IntegrityChecker.isSelfVerified/INFO] Successfully verified current JAR
+[20:39:02] [@.auth.authlibinjector.AuthlibInjectorServer.refreshMetadata/INFO] authlib-injector server metadata refreshed: https://littleskin.cn/api/yggdrasil/
+[20:39:03] [@.util.FileSaver.saveSync/INFO] Saving file C:\Users\weizh\Downloads\.hmcl\hmcl.json
+[20:39:03] [@.util.Pack200Utils.<clinit>/WARNING] Pack200 not found
+[20:39:03] [@.upgrade.UpdateChecker.lambda$requestCheckUpdate$2/INFO] Latest version (DEVELOPMENT) is [3.6.12.282 from http://mirrors.cloud.tencent.com/nexus/repository/maven-public/org/glavo/hmcl/hmcl-dev/3.6.12.282/hmcl-dev-3.6.12.282.jar]
+[20:39:06] [@.game.LauncherHelper.launch/INFO] Launching game version: 1.21-Fabric
+[20:39:06] [@.ui.construct.JFXDialogPane.push/INFO] JFXDialogPane@5bd0f671 [TaskExecutorDialogPane@6116caa]
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.task.Task$StagesHintTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda/0x0000020a1e41dcf0@1f2d7e1
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda/0x0000020a1e41d8b0@1cb31a09
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda/0x0000020a1e41d8b0@57bd9e10
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.task.Task$StageTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda/0x0000020a1e41d470@ba4b62e
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.task.Task$StageTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda/0x0000020a1e41d258@1862806b
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.checkGameState(LauncherHelper.java:342)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper.checkGameState(LauncherHelper.java:342)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$10/TRACE] Executing task: org.jackhuang.hmcl.task.Task$4
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$12/TRACE] Task finished: org.jackhuang.hmcl.task.Task$4
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda/0x0000020a1e41d258@1862806b
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.task.Task$StageTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$3(LauncherHelper.java:157)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$3(LauncherHelper.java:147)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.download.game.GameAssetDownloadTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda/0x0000020a1e41d8b0@2887469b
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.download.game.GameLibrariesTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.download.game.GameAssetIndexDownloadTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.download.DefaultDependencyManager.checkGameCompletionAsync(DefaultDependencyManager.java:81)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.download.DefaultDependencyManager.checkGameCompletionAsync(DefaultDependencyManager.java:81)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.download.DefaultDependencyManager.checkPatchCompletionAsync(DefaultDependencyManager.java:100)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$3(LauncherHelper.java:157)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.download.game.GameAssetIndexDownloadTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.download.DefaultDependencyManager.checkPatchCompletionAsync(DefaultDependencyManager.java:100)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda/0x0000020a1e41d8b0@2887469b
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$3(LauncherHelper.java:147)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.download.game.GameLibrariesTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: 检查资源文件完整性
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda/0x0000020a1e41d470@ba4b62e
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.task.Task$StageTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.download.game.GameVerificationFixTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.download.game.GameVerificationFixTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda/0x0000020a1e41d8b0@57bd9e10
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.task.Task$StageTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.logIn(LauncherHelper.java:634)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$10/TRACE] Executing task: org.jackhuang.hmcl.task.Task$4
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$12/TRACE] Task finished: org.jackhuang.hmcl.task.Task$4
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper.logIn(LauncherHelper.java:634)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.task.Task$StageTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda/0x0000020a1e41d8b0@1cb31a09
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.task.Task$StageTask
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: 请耐心等待
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$14(LauncherHelper.java:210)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda/0x0000020a1e4812e0@243a047b
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$14(LauncherHelper.java:186)
+[20:39:06] [@.game.LauncherHelper.lambda$launch0$7/INFO] Here's the structure of game mod directory:
+Filesystem structure of: D:\.minecraft\versions\1.21-Fabric\mods
+|-> mods
+|  |-> appleskin-fabric-mc1.21-3.0.6.jar
+|  |-> architectury-13.0.8-fabric.jar
+|  |-> Carpet-AMS-Addition-mc1.21-fabric-v2.57.4.jar
+|  |-> carpet-org-addition-mc1.21-v1.37.3-2505270003.jar
+|  |-> carpet-tis-addition-v1.61.0-mc1.21.jar
+|  |-> chat_heads-0.13.18-fabric-1.21.jar
+|  |-> cloth-config-15.0.140-fabric.jar
+|  |-> continuity-3.0.0+1.21.jar
+|  |-> CreativeCore_FABRIC_v2.12.9_mc1.21.jar
+|  |-> dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar
+|  |-> entityculling-fabric-1.8.0-mc1.21.jar
+|  |-> fabric-api-0.116.3+1.21.1.jar
+|  |-> fabric-carpet-1.21-1.4.147+v240613.jar
+|  |-> fabric-language-kotlin-1.13.4+kotlin.2.2.0.jar
+|  |-> ferritecore-7.0.0-fabric.jar
+|  |-> Flashback-0.34.0-for-MC1.21.1.jar
+|  |-> g4mespeed-1.4.8-mc1.21.1.jar
+|  |-> ImmediatelyFast-Forge-1.6.5+1.21.1.jar
+|  |-> indium-1.0.35+mc1.21.jar
+|  |-> iris-fabric-1.8.8+mc1.21.1.jar
+|  |-> isometric-renders-0.4.7+1.21.jar
+|  |-> itemscroller-fabric-1.21-0.24.59.jar
+|  |-> jei-1.21.1-fabric-19.21.2.313.jar
+|  |-> krypton-0.2.8.jar
+|  |-> litematica-fabric-1.21-0.19.59.jar
+|  |-> lithium-fabric-mc1.21-0.13.1.jar
+|  |-> malilib-fabric-1.21-0.21.9.jar
+|  |-> minihud-fabric-1.21-0.32.59.jar
+|  |-> modernfix-fabric-5.19.1+mc1.21.jar
+|  |-> modmenu-11.0.3.jar
+|  |-> owo-lib-0.12.15.4+1.21.jar
+|  |-> placeholder-api-2.4.2+1.21.jar
+|  |-> reden-0.10.1+1.21.1.jar
+|  |-> reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar
+|  |-> sodium-extra-fabric-0.6.0+mc1.21.1.jar
+|  |-> sodium-fabric-0.6.13+mc1.21.1.jar
+|  |-> tweakermore-v3.26.1-mc1.21.1.jar
+|  |-> tweakeroo-fabric-1.21-0.21.59.jar
+|  |-> ViaFabricPlus-3.4.9.jar
+|  |-> worldedit-mod-7.3.8.jar
+|  |-> XaerosWorldMap_1.39.9_Fabric_1.21.jar
+|  |-> Xaeros_Minimap_25.2.6_Fabric_1.21.jar
+|  |-> XPlusContingameIME-1.2.1-xplus-1.21.x-fabric.jar
+|  |-> yet_another_config_lib_v3-3.7.1+1.21.1-fabric.jar
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$14(LauncherHelper.java:186)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$9(LauncherHelper.java:203)
+[20:39:06] [@.game.LauncherHelper$HMCLProcessListener.setProcess/INFO] Launched process: "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.7.6-hotspot\\bin\\java.exe" -Xmx6647m -Dfile.encoding=GB18030 -Dstdout.encoding=GB18030 -Dstderr.encoding=GB18030 -Djava.rmi.server.useCodebaseOnly=true -Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -Dlog4j2.formatMsgNoLookups=true -Dlog4j.configurationFile=D:\.minecraft\versions\1.21-Fabric\log4j2.xml -Dminecraft.client.jar=D:\.minecraft\versions\1.21-Fabric\1.21-Fabric.jar -Djava.net.useSystemProxiestrue -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseG1GC -XX:G1MixedGCCountTarget=5 -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:TieredCompileTaskTimeout=10000 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NmethodSweepActivity=1 -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=D:\.minecraft\versions\1.21-Fabric\natives-windows-x86_64 -Djna.tmpdir=D:\.minecraft\versions\1.21-Fabric\natives-windows-x86_64 -Dorg.lwjgl.system.SharedLibraryExtractPath=D:\.minecraft\versions\1.21-Fabric\natives-windows-x86_64 -Dio.netty.native.workdir=D:\.minecraft\versions\1.21-Fabric\natives-windows-x86_64 -Dminecraft.launcher.brand=HMCL -Dminecraft.launcher.version=3.6.12.282 -cp D:\.minecraft\libraries\org\ow2\asm\asm\9.8\asm-9.8.jar;D:\.minecraft\libraries\org\ow2\asm\asm-analysis\9.8\asm-analysis-9.8.jar;D:\.minecraft\libraries\org\ow2\asm\asm-commons\9.8\asm-commons-9.8.jar;D:\.minecraft\libraries\org\ow2\asm\asm-tree\9.8\asm-tree-9.8.jar;D:\.minecraft\libraries\org\ow2\asm\asm-util\9.8\asm-util-9.8.jar;D:\.minecraft\libraries\net\fabricmc\sponge-mixin\0.15.5+mixin.0.8.7\sponge-mixin-0.15.5+mixin.0.8.7.jar;D:\.minecraft\libraries\net\fabricmc\intermediary\1.21\intermediary-1.21.jar;D:\.minecraft\libraries\net\fabricmc\fabric-loader\0.16.14\fabric-loader-0.16.14.jar;D:\.minecraft\libraries\com\github\oshi\oshi-core\6.4.10\oshi-core-6.4.10.jar;D:\.minecraft\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;D:\.minecraft\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;D:\.minecraft\libraries\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;D:\.minecraft\libraries\com\ibm\icu\icu4j\73.2\icu4j-73.2.jar;D:\.minecraft\libraries\com\mojang\authlib\6.0.54\authlib-6.0.54.jar;D:\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;D:\.minecraft\libraries\com\mojang\brigadier\1.2.9\brigadier-1.2.9.jar;D:\.minecraft\libraries\com\mojang\datafixerupper\8.0.16\datafixerupper-8.0.16.jar;D:\.minecraft\libraries\com\mojang\logging\1.2.7\logging-1.2.7.jar;D:\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;D:\.minecraft\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar;D:\.minecraft\libraries\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;D:\.minecraft\libraries\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;D:\.minecraft\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\.minecraft\libraries\io\netty\netty-buffer\4.1.97.Final\netty-buffer-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-codec\4.1.97.Final\netty-codec-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-common\4.1.97.Final\netty-common-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-handler\4.1.97.Final\netty-handler-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-resolver\4.1.97.Final\netty-resolver-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.1.97.Final\netty-transport-classes-epoll-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.1.97.Final\netty-transport-native-unix-common-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-transport\4.1.97.Final\netty-transport-4.1.97.Final.jar;D:\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.12\fastutil-8.5.12.jar;D:\.minecraft\libraries\net\java\dev\jna\jna-platform\5.14.0\jna-platform-5.14.0.jar;D:\.minecraft\libraries\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar;D:\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;D:\.minecraft\libraries\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;D:\.minecraft\libraries\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;D:\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;D:\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;D:\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;D:\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar;D:\.minecraft\libraries\org\jcraft\jorbis\0.0.17\jorbis-0.0.17.jar;D:\.minecraft\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;D:\.minecraft\libraries\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;D:\.minecraft\versions\1.21-Fabric\1.21-Fabric.jar net.fabricmc.loader.impl.launch.knot.KnotClient --username Linvin_ --version 1.21-Fabric --gameDir D:\.minecraft\versions\1.21-Fabric --assetsDir D:\.minecraft\assets --assetIndex 17 --uuid 551b6f86582743189ad56985688e0179 --accessToken <access token> --clientId ${clientid} --xuid ${auth_xuid} --userType msa --versionType "HMCL 3.6.12.282" --width 854 --height 480
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$9(LauncherHelper.java:203)
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda/0x0000020a1e4812e0@243a047b
+[20:39:06] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$14(LauncherHelper.java:210)
+[20:39:23] [@.task.Schedulers.shutdown/INFO] Shutting down executor services.
+[20:39:24] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: 请耐心等待
+[20:39:24] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.task.Task$StageTask
+[20:39:24] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda/0x0000020a1e41dcf0@1f2d7e1
+[20:39:24] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.task.Task$StagesHintTask
+[20:59:33] [@.event.EventBus.fireEvent/INFO] ProcessExitedAbnormallyEvent [source=org.jackhuang.hmcl.launch.ExitWaiter@24a1923b, process=ManagedProcess[commands=[C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin\java.exe, -Xmx6647m, -Dfile.encoding=GB18030, -Dstdout.encoding=GB18030, -Dstderr.encoding=GB18030, -Djava.rmi.server.useCodebaseOnly=true, -Dcom.sun.jndi.rmi.object.trustURLCodebase=false, -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false, -Dlog4j2.formatMsgNoLookups=true, -Dlog4j.configurationFile=D:\.minecraft\versions\1.21-Fabric\log4j2.xml, -Dminecraft.client.jar=D:\.minecraft\versions\1.21-Fabric\1.21-Fabric.jar, -Djava.net.useSystemProxiestrue, -XX:+UnlockExperimentalVMOptions, -XX:+UnlockDiagnosticVMOptions, -XX:+UseG1GC, -XX:G1MixedGCCountTarget=5, -XX:G1NewSizePercent=20, -XX:G1ReservePercent=20, -XX:MaxGCPauseMillis=50, -XX:G1HeapRegionSize=32m, -XX:-OmitStackTraceInFastThrow, -XX:-DontCompileHugeMethods, -XX:MaxNodeLimit=240000, -XX:NodeLimitFudgeFactor=8000, -XX:TieredCompileTaskTimeout=10000, -XX:ReservedCodeCacheSize=400M, -XX:NonNMethodCodeHeapSize=12M, -XX:ProfiledCodeHeapSize=194M, -XX:NmethodSweepActivity=1, -Dfml.ignoreInvalidMinecraftCertificates=true, -Dfml.ignorePatchDiscrepancies=true, -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump, -Djava.library.path=D:\.minecraft\versions\1.21-Fabric\natives-windows-x86_64, -Djna.tmpdir=D:\.minecraft\versions\1.21-Fabric\natives-windows-x86_64, -Dorg.lwjgl.system.SharedLibraryExtractPath=D:\.minecraft\versions\1.21-Fabric\natives-windows-x86_64, -Dio.netty.native.workdir=D:\.minecraft\versions\1.21-Fabric\natives-windows-x86_64, -Dminecraft.launcher.brand=HMCL, -Dminecraft.launcher.version=3.6.12.282, -cp, D:\.minecraft\libraries\org\ow2\asm\asm\9.8\asm-9.8.jar;D:\.minecraft\libraries\org\ow2\asm\asm-analysis\9.8\asm-analysis-9.8.jar;D:\.minecraft\libraries\org\ow2\asm\asm-commons\9.8\asm-commons-9.8.jar;D:\.minecraft\libraries\org\ow2\asm\asm-tree\9.8\asm-tree-9.8.jar;D:\.minecraft\libraries\org\ow2\asm\asm-util\9.8\asm-util-9.8.jar;D:\.minecraft\libraries\net\fabricmc\sponge-mixin\0.15.5+mixin.0.8.7\sponge-mixin-0.15.5+mixin.0.8.7.jar;D:\.minecraft\libraries\net\fabricmc\intermediary\1.21\intermediary-1.21.jar;D:\.minecraft\libraries\net\fabricmc\fabric-loader\0.16.14\fabric-loader-0.16.14.jar;D:\.minecraft\libraries\com\github\oshi\oshi-core\6.4.10\oshi-core-6.4.10.jar;D:\.minecraft\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;D:\.minecraft\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;D:\.minecraft\libraries\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;D:\.minecraft\libraries\com\ibm\icu\icu4j\73.2\icu4j-73.2.jar;D:\.minecraft\libraries\com\mojang\authlib\6.0.54\authlib-6.0.54.jar;D:\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;D:\.minecraft\libraries\com\mojang\brigadier\1.2.9\brigadier-1.2.9.jar;D:\.minecraft\libraries\com\mojang\datafixerupper\8.0.16\datafixerupper-8.0.16.jar;D:\.minecraft\libraries\com\mojang\logging\1.2.7\logging-1.2.7.jar;D:\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;D:\.minecraft\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar;D:\.minecraft\libraries\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;D:\.minecraft\libraries\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;D:\.minecraft\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\.minecraft\libraries\io\netty\netty-buffer\4.1.97.Final\netty-buffer-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-codec\4.1.97.Final\netty-codec-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-common\4.1.97.Final\netty-common-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-handler\4.1.97.Final\netty-handler-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-resolver\4.1.97.Final\netty-resolver-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.1.97.Final\netty-transport-classes-epoll-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.1.97.Final\netty-transport-native-unix-common-4.1.97.Final.jar;D:\.minecraft\libraries\io\netty\netty-transport\4.1.97.Final\netty-transport-4.1.97.Final.jar;D:\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.12\fastutil-8.5.12.jar;D:\.minecraft\libraries\net\java\dev\jna\jna-platform\5.14.0\jna-platform-5.14.0.jar;D:\.minecraft\libraries\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar;D:\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;D:\.minecraft\libraries\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;D:\.minecraft\libraries\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;D:\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;D:\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;D:\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;D:\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar;D:\.minecraft\libraries\org\jcraft\jorbis\0.0.17\jorbis-0.0.17.jar;D:\.minecraft\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-arm64.jar;D:\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-x86.jar;D:\.minecraft\libraries\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;D:\.minecraft\libraries\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;D:\.minecraft\versions\1.21-Fabric\1.21-Fabric.jar, net.fabricmc.loader.impl.launch.knot.KnotClient, --username, Linvin_, --version, 1.21-Fabric, --gameDir, D:\.minecraft\versions\1.21-Fabric, --assetsDir, D:\.minecraft\assets, --assetIndex, 17, --uuid, 551b6f86582743189ad56985688e0179, --accessToken, <access token>, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, HMCL 3.6.12.282, --width, 854, --height, 480], isRunning=false]] gets fired
+[20:59:33] [@.event.EventBus.fireEvent/INFO] ProcessStoppedEvent [source=org.jackhuang.hmcl.launch.ExitWaiter@24a1923b] gets fired
+[20:59:33] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.ui.GameCrashWindow.analyzeCrashReport(GameCrashWindow.java:146)
+[20:59:33] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.ui.GameCrashWindow.analyzeCrashReport(GameCrashWindow.java:131)
+[20:59:33] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.ui.GameCrashWindow.analyzeCrashReport(GameCrashWindow.java:116)
+[20:59:33] [@.Launcher.stopWithoutPlatform/INFO] Stopping application without JavaFX Toolkit.
+	at java.base/java.lang.Thread.getStackTrace(Thread.java:2451)
+	at org.jackhuang.hmcl.Launcher.stopWithoutPlatform(Launcher.java:293)
+	at org.jackhuang.hmcl.game.LauncherHelper.lambda$checkExit$48(LauncherHelper.java:688)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[20:59:33] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.ui.GameCrashWindow.analyzeCrashReport(GameCrashWindow.java:116)
+[20:59:33] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.ui.GameCrashWindow.analyzeCrashReport(GameCrashWindow.java:131)
+[20:59:33] [@.ui.GameCrashWindow.lambda$analyzeCrashReport$4/INFO] Number of reasons: 4
+[20:59:33] [@.ui.GameCrashWindow.lambda$analyzeCrashReport$4/INFO] Crash cause: FABRIC_WARNINGS: Fabric 提供了一些警告信息：
+ - 模组 'XPlus ContingameIME' (ingameime) 1.2.1-xplus-1.21.3 建议安装 satin 的 任意版本，但没有安装它！
+	 - 为了最佳体验，您应该安装 satin 的 任意版本。
+
+[20:59:33] [@.ui.GameCrashWindow.lambda$analyzeCrashReport$4/INFO] Crash cause: BLOCK: 当前游戏由于某个方块不能正常工作，无法继续运行。
+你可以尝试使用 <a href="https://www.mcedit.net">MCEdit</a> 工具编辑存档删除该方块，或者直接删除对应的模组。
+方块类型：Block{minecraft:hopper}[enabled=true,facing=west]
+方块坐标：World: (3,143,-317), Section: (at 3,15,3 in 0,8,-20; chunk contains blocks 0,-64,-320 to 15,319,-305), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1) 
+[20:59:33] [@.ui.GameCrashWindow.lambda$analyzeCrashReport$4/INFO] Crash cause: MODMIXIN_FAILURE: 当前游戏由于某些模组注入失败，无法继续运行。
+这一般代表着该模组存在问题，或与当前环境不兼容。
+你可以查看日志寻找出错模组。
+[20:59:33] [@.ui.GameCrashWindow.lambda$analyzeCrashReport$4/INFO] Crash cause: MIXIN_APPLY_MOD_FAILED: 当前游戏由于 Mixin 无法应用于“carpet-tis-addition”模组，无法继续运行。
+你可以尝试删除或更新该模组以解决问题。
+[20:59:33] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.ui.GameCrashWindow.analyzeCrashReport(GameCrashWindow.java:146)
+[20:59:45] [@.game.LogExporter.processLogs/WARNING] Failed to find any log on liteconfig
+java.nio.file.NoSuchFileException: D:\.minecraft\versions\1.21-Fabric\liteconfig
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:541)
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:550)
+	at org.jackhuang.hmcl.game.LogExporter.processLogs(LogExporter.java:90)
+	at org.jackhuang.hmcl.game.LogExporter.lambda$exportLogs$0(LogExporter.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
